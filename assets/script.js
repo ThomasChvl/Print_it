@@ -16,3 +16,16 @@ const slides = [
 		"tagLine":"Autocollants <span>avec découpe laser sur mesure</span>"
 	}
 ]
+
+// Selection des fleches du carrousel
+const leftArrow = document.querySelector(".arrow_left");
+const rightArrow = document.querySelector(".arrow_right");
+
+// Test des clics sur les fleches
+leftArrow.addEventListener("click", () => {
+	console.log("Clic sur la fleche gauche");
+});
+
+rightArrow.addEventListener("click", () => {
+	console.log("Clic sur la fleche droite");
+});
